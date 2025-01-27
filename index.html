@@ -21,96 +21,130 @@
     <div class="container p-5">
 
       <h1 class="text-center p-3">Frequently Asked Questions about React</h1>
+      
       <div class="container-fluid p-2" id="q1">
-        <div class="text-bg-dark p-2 rounded-3 row" >
+        <div class="text-bg-dark p-2 rounded-3 row">
           <span class="card-title col-11">What is React?</span>
           <i class="fa-solid fa-caret-down text-end col-1"></i>
         </div>
-        <div class="card mt-2 border border-dark p-3 hidden">
-          <p>React is a JavaScript library for building user interfaces, particularly single-page applications where data changes over time.</p>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            React is a JavaScript library for building user interfaces,
+            particularly single-page applications where data changes over time.
+          </p>
         </div>
       </div>
 
       <div class="container-fluid p-2" id="q2">
-        <div class="text-bg-dark p-2 rounded-3 row" >
+        <div class="text-bg-dark p-2 rounded-3 row">
           <span class="card-title col-11">Who developed React?</span>
           <i class="fa-solid fa-caret-down text-end col-1"></i>
         </div>
-        <div class="card mt-2 border border-dark p-3 hidden">
-          <p>React was developed by Facebook and is maintained by Facebook and a community of individual developers and companies.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q3">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">Why use React?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>React simplifies the development of complex, interactive UIs by providing reusable components, efficient DOM updates via a virtual DOM, and a declarative programming style.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q4">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">What are components in React?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>Components are the building blocks of a React application. They are self-contained units that can be independently developed and maintained.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q5">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">What is the Virtual DOM?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>The Virtual DOM is a lightweight copy of the actual DOM. React uses it to optimize updates by only re-rendering parts of the DOM that have changed, improving performance.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q6">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">What is JSX?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>JSX is a syntax extension for JavaScript that looks similar to HTML. It allows you to write XML-like code for elements and components, which gets transformed into JavaScript.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q7">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">What are props in React?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>Props (short for properties) are read-only attributes passed from parent components to child components, allowing data to flow in one direction.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q8">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">What is state in React?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>State is an object that holds data or information about the component. Unlike props, state can change over time and trigger re-rendering of the component.</p>
-        </div>
-      </div>
-      
-      <div class="container-fluid p-2" id="q9">
-        <div class="text-bg-dark p-2 rounded-3 row" >
-          <span class="card-title col-11">What are hooks in React?</span>
-          <i class="fa-solid fa-caret-down text-end col-1"></i>
-        </div>
-                <div class="card mt-2 border border-dark p-3 hidden">
-          <p>Hooks are functions that allow you to use state and other React features in functional components. Examples include useState and useEffect.</p>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            React was developed by Facebook and is maintained by Facebook and a
+            community of individual developers and companies.
+          </p>
         </div>
       </div>
 
+      <div class="container-fluid p-2" id="q3">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">Why use React?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            React simplifies the development of complex, interactive UIs by
+            providing reusable components, efficient DOM updates via a virtual
+            DOM, and a declarative programming style.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid p-2" id="q4">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">What are components in React?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            Components are the building blocks of a React application. They are
+            self-contained units that can be independently developed and
+            maintained.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid p-2" id="q5">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">What is the Virtual DOM?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            The Virtual DOM is a lightweight copy of the actual DOM. React uses
+            it to optimize updates by only re-rendering parts of the DOM that
+            have changed, improving performance.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid p-2" id="q6">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">What is JSX?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            JSX is a syntax extension for JavaScript that looks similar to HTML.
+            It allows you to write XML-like code for elements and components,
+            which gets transformed into JavaScript.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid p-2" id="q7">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">What are props in React?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            Props (short for properties) are read-only attributes passed from
+            parent components to child components, allowing data to flow in one
+            direction.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid p-2" id="q8">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">What is state in React?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            State is an object that holds data or information about the
+            component. Unlike props, state can change over time and trigger
+            re-rendering of the component.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid p-2" id="q9">
+        <div class="text-bg-dark p-2 rounded-3 row">
+          <span class="card-title col-11">What are hooks in React?</span>
+          <i class="fa-solid fa-caret-down text-end col-1"></i>
+        </div>
+        <div class="card mt-2 border border-dark p-3 hidden" id="hidden">
+          <p>
+            Hooks are functions that allow you to use state and other React
+            features in functional components. Examples include useState and
+            useEffect.
+          </p>
+        </div>
+      </div>
     </div>
 
     <script
